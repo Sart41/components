@@ -1,0 +1,14 @@
+import styles from '...'
+import initTabs from '...'
+
+
+document.addEventListener('DOMContentLoaded', (event) => {
+  const rootElement = document.querySelector('#tabsDonation');
+
+  initTabs(rootElement, styles)
+
+});
+
+класс инициализации styles.tabs
+или
+по id
